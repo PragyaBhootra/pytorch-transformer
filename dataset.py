@@ -50,7 +50,7 @@ class BilingualDataset(Dataset):
             dim=0,
         )
 
-        # Add only <s> token
+
         decoder_input = torch.cat(
             [
                 self.sos_token,
